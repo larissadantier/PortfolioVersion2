@@ -14,7 +14,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 $to = "larissa_dantier@hotmail.com";
 $subject = "Contato - Portfólio:  $name";
 $body = "Uma nova mensagem do site\r\n"."Detalhes do contato:\r\nName: $name\r\nEmail: $email\r\nPhone: $phone\r\nMessage:\n$message";
-$header = "From: larissa_dantier@hotmail.com\r\n"
+$header = "From: larissa@hotmail.com\r\n"
           ."Reply-To: $email\r\n";
           ."X-Mailer:PHP/".phpversion();
 
